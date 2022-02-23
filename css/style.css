@@ -120,10 +120,16 @@ body {
   color: #757575;
   text-decoration: none;
 }
+
 .header-link:hover,
 .header-link:focus {
   color: var(--brend-color-);
 }
+
+.header-list-icon {
+  margin-right: 10px;
+}
+
 /* LOGO */
 .logo {
   display: flex;
@@ -146,6 +152,7 @@ body {
 /* HERO */
 .hero {
   background-color: var(--sec-text-color-);
+  
   text-align: center;
   padding-top: 200px;
   padding-bottom: 200px;
