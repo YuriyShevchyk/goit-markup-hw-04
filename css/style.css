@@ -242,8 +242,7 @@ body {
   width: 270px;
 }
 
-.about-list-item::before {
-}
+
 .about-list-item:last-child {
   margin-right: 0;
 }
@@ -256,6 +255,20 @@ body {
 }
 .about-txt {
   line-height: 1.71;
+}
+
+.about-icon {
+  background-color: #F5F4FA;
+  margin-bottom: 30px;
+  width: 270px;
+  height: 120px;
+  border-radius: 4px;
+  padding: 25px 100px;
+}
+
+.about-icon:hover {
+  box-shadow: 0px 4px 4px 0px #00000040;
+
 }
 
 .works-list {
@@ -299,6 +312,33 @@ body {
 
 .team-text {
   margin-bottom: 30px;
+}
+
+.clients-list {
+  display: flex;
+}
+
+.client-icon {
+  width: 170px;
+  height: 92px;
+  padding: 16px 32px;
+  border: 1px solid #AFB1B8;
+box-sizing: border-box;
+border-radius: 4px;
+margin-right: 30px;
+color: #AFB1B8;
+}
+
+.client {
+  color: #AFB1B8;
+}
+
+.client:hover {
+  color: var(--brend-color-);
+
+
+/* .client-icon:last-child{
+  margin-right: 0; */
 }
 
 /* FOOTER */
@@ -357,6 +397,18 @@ text-transform: uppercase;
 color: var(--white-color);
 }
 
+.footer-join-list {
+  display: flex;
+}
+
+.soc-icons {
+  width: 20px;
+  height: 20px;
+  padding: 22px;
+  border-radius: 50%;
+  background-color: var(--main-text-color-);
+  color:var(--white-color)
+}
 /* PORTFOLIO */
 
 .filter-buttons {
