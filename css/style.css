@@ -124,10 +124,15 @@ body {
 .header-link:hover,
 .header-link:focus {
   color: var(--brend-color-);
-}
+  }
 
 .header-list-icon {
+  fill:var(--main-text-color-);
   margin-right: 10px;
+}
+
+.header-link:hover .header-list-icon{
+  fill:var(--brend-color-);
 }
 
 /* LOGO */
@@ -242,7 +247,6 @@ body {
   width: 270px;
 }
 
-
 .about-list-item:last-child {
   margin-right: 0;
 }
@@ -322,7 +326,11 @@ body {
   display: flex;
 }
 
-.client-icon {
+.clients-list-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
   width: 170px;
   height: 92px;
   padding: 16px 32px;
@@ -333,31 +341,39 @@ margin-right: 30px;
 color: #AFB1B8;
 }
 
-/* .client-icon:last-child {
-  margin-right: 0;
-} */
-
-.client {
-  color: #AFB1B8;
-}
-
-.client:hover {
-  color: var(--brend-color-);
-
-
-
+.clients-list-item:last-child {
   margin-right: 0;
 }
+
+.client-icon{
+  width: 106px;
+  height: 60px;
+  fill: #AFB1B8;
+}
+
+.client-icon:hover {
+  fill:var(--brend-color-);
+}
+
 
 /* FOOTER */
 .footer {
+  display: flex;
+  
   background-color: var(--sec-text-color-);
   padding-top: 60px;
   padding-bottom: 60px;
 }
-/* .footer .logo {
-  margin-bottom: 20px;
-} */
+
+.footer-nav {
+  display: inline-block;
+}
+
+.join-box {
+  display: inline-block;
+  margin-top: 72px;
+  margin-bottom: 100px;
+}
 .address {
   margin-top: 20px;
 }
@@ -394,8 +410,7 @@ color: #AFB1B8;
 /* Join */
 
 .join-title {
-  font-family: 'Roboto';
-font-style: normal;
+
 font-weight: 700;
 font-size: 14px;
 line-height: 16px;
@@ -409,15 +424,28 @@ margin-bottom: 20px;
 .footer-join-list {
   display: flex;
 }
+.soc-icons {
+  width: 20px;
+  height: 20px;
 
-
-.soc-icons:last-child {
-  margin-right: 0;
-
+  fill:var(--white-color);
 }
 
 .join-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
   margin-right: 10px;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.1);
+
+}
+
+.join-item:hover {
+  background-color: var(--brend-color-);
 }
 /* PORTFOLIO */
 
