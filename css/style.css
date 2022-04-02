@@ -315,11 +315,44 @@ body {
 }
 
 .team-text {
+  margin-bottom: 16px;
+}
+
+.team-soc-list {
+  display: flex;
+  justify-content: center;
   margin-bottom: 30px;
 }
 
-.team-social-links {
+.t-soc-item {
   display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    margin-right: 10px;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background-color:var(--white-color);
+}
+
+.t-soc-item:last-child {
+  margin-right: 0;
+}
+
+.t-soc-item:hover, .t-soc-item:focus {
+  background-color: var(--brend-color-);
+}
+
+.t-soc-icons {
+  width: 20px;
+  height: 20px;
+
+  fill:var(--main-text-color-);
+}
+
+.t-soc-icons:hover, .t-soc-icons:focus {
+  fill:var(--white-color);
 }
 
 .clients-list {
@@ -351,28 +384,31 @@ color: #AFB1B8;
   fill: #AFB1B8;
 }
 
-.client-icon:hover {
+.client-icon:hover, .client-icon:focus {
   fill:var(--brend-color-);
 }
 
 
 /* FOOTER */
 .footer {
-  display: flex;
+  
   
   background-color: var(--sec-text-color-);
   padding-top: 60px;
   padding-bottom: 60px;
 }
 
+.footer .conteiner {
+  display: flex;
+}
 .footer-nav {
   display: inline-block;
 }
 
 .join-box {
   display: inline-block;
-  margin-top: 72px;
-  margin-bottom: 100px;
+  margin-left: 70px;
+   
 }
 .address {
   margin-top: 20px;
