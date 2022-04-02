@@ -314,6 +314,10 @@ body {
   margin-bottom: 30px;
 }
 
+.team-social-links {
+  display: flex;
+}
+
 .clients-list {
   display: flex;
 }
@@ -329,6 +333,10 @@ margin-right: 30px;
 color: #AFB1B8;
 }
 
+/* .client-icon:last-child {
+  margin-right: 0;
+} */
+
 .client {
   color: #AFB1B8;
 }
@@ -337,8 +345,8 @@ color: #AFB1B8;
   color: var(--brend-color-);
 
 
-/* .client-icon:last-child{
-  margin-right: 0; */
+
+  margin-right: 0;
 }
 
 /* FOOTER */
@@ -395,19 +403,21 @@ letter-spacing: 0.03em;
 text-transform: uppercase;
 
 color: var(--white-color);
+margin-bottom: 20px;
 }
 
 .footer-join-list {
   display: flex;
 }
 
-.soc-icons {
-  width: 20px;
-  height: 20px;
-  padding: 22px;
-  border-radius: 50%;
-  background-color: var(--main-text-color-);
-  color:var(--white-color)
+
+.soc-icons:last-child {
+  margin-right: 0;
+
+}
+
+.join-item {
+  margin-right: 10px;
 }
 /* PORTFOLIO */
 
