@@ -387,7 +387,9 @@ color: #AFB1B8;
 .client-icon:hover, .client-icon:focus {
   fill:var(--brend-color-);
 }
-
+.clients-list-item:hover, .clients-list-item:focus {
+  border-color: var(--brend-color-);
+}
 
 /* FOOTER */
 .footer {
