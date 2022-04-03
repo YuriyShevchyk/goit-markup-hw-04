@@ -94,6 +94,7 @@ body {
   display: flex;
   margin-left: auto;
   justify-content: flex-end;
+  align-items: center;
 }
 .header-list-item {
   margin-right: 50px;
@@ -394,15 +395,17 @@ color: #AFB1B8;
 /* FOOTER */
 .footer {
   
-  
   background-color: var(--sec-text-color-);
   padding-top: 60px;
   padding-bottom: 60px;
 }
 
-.footer .conteiner {
+.footer .container {
   display: flex;
+  align-items: baseline;
+  
 }
+
 .footer-nav {
   display: inline-block;
 }
