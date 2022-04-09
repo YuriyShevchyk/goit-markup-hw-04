@@ -269,10 +269,8 @@ body {
 }
 
 .about-icon {
- 
   width: 70px;
   height: 70px;
-  
 }
 
 .about-box {
@@ -322,7 +320,6 @@ body {
 }
 
 .team-title {
-  
   margin-bottom: 10px;
 
   font-weight: 500;
@@ -359,7 +356,7 @@ body {
   width: 20px;
   height: 20px;
 
-  fill: #AFB1B8;;
+  fill: #AFB1B8;
 }
 .t-soc-link {
   display: flex;
@@ -561,7 +558,6 @@ margin-bottom: 20px;
 .filter-item:last-child {
   margin-right: 0;
 }
-
 
 .cards-list {
   display: flex;
